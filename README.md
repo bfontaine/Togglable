@@ -30,10 +30,8 @@ properties, e.g.:
 ```html
 <span class="togglajax" data-togglajax-values="foo,bar"></span>
 <span class="togglajax"
-      data-togglajax-values="[{label:\\"Foo\\",
-                               value:\\"foo\\",
-                              },{label:\\"Bar\\",
-                                 value:\\"bar\\"}]"></span>
+      data-togglajax-values='[{label:"Foo",value:"foo"},
+                              {label:"Bar",value:"bar"}]'></span>
 ```
 
 
