@@ -1,0 +1,4 @@
+before_install: npm install -g mocha mocha-phantomjs
+script: mocha-phantomjs test/index.html
+notifications:
+  email: false
