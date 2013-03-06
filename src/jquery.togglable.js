@@ -23,7 +23,7 @@
     /**
      * Namespace used for classes, jQuery data binding and events
      **/
-    NS = 'togglajax',
+    NS = 'togglable',
     
     ns_class = function( s ) { return NS + (s ? '-' + s : ''); },
     ns_sel   = function( s ) { return '.' + ns_class( s ); },
@@ -39,7 +39,7 @@
 
     }
 
-    $.fn.togglajax = $.fn.togglAjax = function( o ) {
+    $.fn.togglable = function( o ) {
 
         var $this = this,
             $els = $this.find( ns_sel() ),
